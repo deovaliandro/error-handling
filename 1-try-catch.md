@@ -1,4 +1,6 @@
-Try and catch both are Java keywords and used for exception handling. The try block is used to enclose the suspected code. Suspected code is a code that may raise an exception during program execution.
+Try dan catch adalah keywordyang digunakan untuk menangkap exception. Try digunakan untuk menjalankan kode dan ketika terjadi error, maka akan ditangkap oleh catch.
+
+Contohnya:
 
 ```java
 try {
@@ -23,7 +25,7 @@ try {
 }
 ```
 
-Example:
+Contoh lain:
 
 ```java
 public class Main {
@@ -42,10 +44,10 @@ public class Main {
 }
 ```
 
-### Important points to Remember
+### Penting untuk diingat
 
-1. If you do not explicitly use the try catch blocks in your program,  Java will provide a default exception handler, which will print the  exception details on the terminal, whenever exception occurs.
-2. Super class `Throwable` overrides `toString()` function, to display error message in form of string.
-3. While using multiple catch block, always make sure that sub-classes  of Exception class comes before any of their super classes. Else you  will get compile time error.
-4. In nested try catch, the inner try block uses its own catch block as well as catch block of the outer try, if required.
-5. Only the object of `Throwable` class or its subclasses can be thrown.
+1.Jika kita tidak memberikan jenis exception yand ditangkap, maka Java kaan menggunakan default exception dimana error akan ditampilkan detail di terminal.
+2. Super class `Throwable` akan meng-override `toString()`, untuk menampilkan error dalam bentuk string.
+3. Ketika menggunakan multiple catch, pastikan sub-class exeption ditulis sebelum superclassnya untuk mencegah error.
+4. Dalam try-catch bercabang, try yang lebih dalam digunakan untuk menangkap error sendiri, namun bisa juga menggunakan exception yang lebih diatasnya jika diperlukan.
+5. Hanya jenis objek class `Throwable` atau sub-classnya yang dapat di thrown.
