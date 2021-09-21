@@ -1,4 +1,6 @@
-Try dan catch adalah keywordyang digunakan untuk menangkap exception. Try digunakan untuk menjalankan kode dan ketika terjadi error, maka akan ditangkap oleh catch.
+Try dan catch adalah keywordyang digunakan untuk menangkap exception. Try
+digunakan untuk menjalankan kode dan ketika terjadi error, maka akan ditangkap
+oleh catch.
 
 Contohnya:
 
@@ -46,8 +48,13 @@ public class Main {
 
 ### Penting untuk diingat
 
-1.Jika kita tidak memberikan jenis exception yand ditangkap, maka Java kaan menggunakan default exception dimana error akan ditampilkan detail di terminal.
-2. Super class `Throwable` akan meng-override `toString()`, untuk menampilkan error dalam bentuk string.
-3. Ketika menggunakan multiple catch, pastikan sub-class exeption ditulis sebelum superclassnya untuk mencegah error.
-4. Dalam try-catch bercabang, try yang lebih dalam digunakan untuk menangkap error sendiri, namun bisa juga menggunakan exception yang lebih diatasnya jika diperlukan.
+1. Jika kita tidak memberikan jenis exception yand ditangkap, maka Java akan
+   menggunakan default exception dimana error akan ditampilkan detail di terminal.
+2. Super class `Throwable` akan meng-override `toString()`, untuk menampilkan
+   error dalam bentuk string.
+3. Ketika menggunakan multiple catch, pastikan sub-class exeption ditulis
+   sebelum superclassnya untuk mencegah error.
+4. Dalam try-catch bercabang, try yang lebih dalam digunakan untuk menangkap
+   error sendiri, namun bisa juga menggunakan exception yang lebih diatasnya
+   jika diperlukan.
 5. Hanya jenis objek class `Throwable` atau sub-classnya yang dapat di thrown.
