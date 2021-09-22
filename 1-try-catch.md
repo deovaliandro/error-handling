@@ -1,4 +1,4 @@
-Try dan catch adalah keywordyang digunakan untuk menangkap exception. Try
+Try dan catch adalah keyword yang digunakan untuk menangkap exception. Try
 digunakan untuk menjalankan kode dan ketika terjadi error, maka akan ditangkap
 oleh catch.
 
