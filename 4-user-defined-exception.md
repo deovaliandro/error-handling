@@ -34,6 +34,9 @@ class Demo {
 }
 ```
 
+Disini kita membuat exception untuk menangkap error ketika hasil operasi kurang
+dari 0.
+
 Contoh lainnya:
 
 ```java
@@ -68,6 +71,10 @@ class Demo {
     }
 }
 ```
+
+Fungsi program ini adalah untuk mencari suatu nilai didalam sebuah array. Jika
+nilai yang dimaksud tidak ditemukan, maka akan memunculkan suatu exception
+bahwa nilai tersebut tidak ditemukan.
 
 ## Beberapa point yang perlu diingat
 
